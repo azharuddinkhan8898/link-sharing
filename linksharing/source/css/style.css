@@ -1,0 +1,19 @@
+body{font-size: 16px;}
+
+video{
+    max-width: 100%;
+    max-height: 300px;
+}
+
+#qrcode{
+    display: block;
+    margin: 0 auto;
+    width: 256px;
+}
+
+@media (max-width:767px){
+    video{
+        width: 100%;
+        max-height: 300px;
+    }
+}
